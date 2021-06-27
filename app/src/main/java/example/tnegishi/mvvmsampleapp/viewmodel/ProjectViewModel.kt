@@ -9,7 +9,6 @@ import example.tnegishi.mvvmsampleapp.model.Project
 import example.tnegishi.mvvmsampleapp.repository.ProjectRepository
 import kotlinx.coroutines.launch
 import java.lang.Exception
-import java.net.IDN
 
 class ProjectViewModel(private val myApplication: Application, private val mProjectID: String) : AndroidViewModel(myApplication) {
 
